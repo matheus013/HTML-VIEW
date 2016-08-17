@@ -3,7 +3,7 @@
 // Passando os dados obtidos pelo formulário para as variáveis abaixo
 $nomeremetente     = $_POST['nomeremetente'];
 $emailremetente    = trim($_POST['emailremetente']);
-$emaildestinatario = 'teste_admin@eneej2014.com.br'; // Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
+$emaildestinatario = 'matheusinacio.bs@gmail.com'; // Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
 $assunto          = $_POST['assunto'];
 $outros          = $_POST['outros'];
 $mensagem          = $_POST['mensagem'];
