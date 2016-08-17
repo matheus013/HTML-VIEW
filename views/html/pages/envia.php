@@ -1,12 +1,11 @@
 <?php
 
 // Passando os dados obtidos pelo formulário para as variáveis abaixo
-$nomeremetente     = $_POST['nomeremetente'];
-$emailremetente    = trim($_POST['emailremetente']);
+$nomeremetente     = $_POST['senderName'];
+$emailremetente    = trim($_POST['senderEmail']);
 $emaildestinatario = 'matheusinacio.bs@gmail.com'; // Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
-$assunto          = $_POST['assunto'];
-$outros          = $_POST['outros'];
-$mensagem          = $_POST['mensagem'];
+$assunto          = $_POST['subject'];
+$mensagem          = $_POST['message'];
  
  
 /* Montando a mensagem a ser enviada no corpo do e-mail. */
@@ -26,7 +25,4 @@ $envio = mail($emaildestinatario, $assunto, $mensagemHTML, $headers);
  
  if($envio)
     echo "<script>location.href='http://fb.com/'</script>"; // Página que será redirecionada
-  else
-    echo "ERRO"
-
 ?>
