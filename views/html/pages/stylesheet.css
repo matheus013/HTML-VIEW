@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-width: 1px;
+}
+
+@font-face {
+    font-family: Code-Light;
+    src: url(../../../fonts/CODE_Light.otf);
+}
+
+@font-face {
+    font-family: Code-Bold;
+    src: url(../../../fonts/CODE_Bold.otf);
+}
+
+@font-face {
+    font-family: Billabong;
+    src: url(../../../fonts/Billabong.ttf);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+table {
+    position: absolute;
+    left: 30%;
+    width: 40%;
+    top: 20%;
+}
+
+th.camp {
+    width: auto;
+}
+
+.contact-form {
+    position: absolute;
+    left: 25%;
+    top: 5%;
+    width: 50%;
+    background-color: #2A1337;
+    opacity: 0.8;
+    color: #FFFFFF;
+    display: block;
+    height: auto;
+    text-align: center;
+    font-family: Code-Bold;
+    font-size: 130%;
+}
+
+.contact-form .title {
+    font-size: 150%;
+    font-family: Code-light;
+}
+
+.btn-contato-reset, .btn-contato-enviar {
+    background-color: rgba(17, 170, 11, 0.62);
+    padding: 10px 25px 10px 25px;
+    border-style: none;
+    font-family: Billabong;
+    font-size: 100%;
+}
+
+.btn-contato-reset:hover, .btn-contato-enviar:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.contact-form textarea {
+    width: 90%;
+}
+
+@media screen and (max-width: 480px) {
+    .contact-form {
+        left: 10%;
+        width: 80%;
+    }
+}

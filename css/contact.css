@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Code-Light;
+    src: url(../fonts/CODE_Light.otf);
+}
+
+@font-face {
+    font-family: Code-Bold;
+    src: url(../fonts/CODE_Bold.otf);
+}
+
+@font-face {
+    font-family: Billabong;
+    src: url(../fonts/Billabong.ttf);
+}
+
+body {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    font-family: Code-Bold;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="validator/css/SpryValidationTextField.css" rel="stylesheet" type="text/css"/>
+    <link href="validator/css/SpryValidationTextArea.css" rel="stylesheet" type="text/css"/>
+    <link href="validator/css/SpryValidationSelect.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+
+<body>
+
+<div class="contact-form">
+    <div class="title"><br/>Contact us</div>
+    <br>
+    <form action="envia.php" method="POST"> <!--  chama o envia.php -->
+
+        <table>
+            <tr>
+                <div class="form-camp">
+                    <th>Name</th>
+                    <span id="spryTextField1">
+			       <th class="camp"><input type="text" name="senderName" class="textField-name"
+                                           placeholder="Your name" size="20%"/></th>
+			        <br/><span class="textFieldRequiredMsg">Your name</span></span>
+                </div>
+            </tr>
+
+            <tr>
+                <div class="form-camp">
+                    <th>E-mail</th>
+                    <span id="spryTextField2">
+	        			<th class="camp"><input type="text" name="senderEmail" class="textField-nome"
+                                                placeholder="Your e-mail" size="20%"/></th>
+	        			<br/><span class="textFieldRequiredMsg">Your e-mail</span>
+	        			<span class="textFieldInvalidFormatMsg">Format invalid email</span></span></div>
+            </tr>
+
+            <tr>
+                <div class="form-camp">
+                    <th>Subject</th>
+                    <span id="spryTextField5">
+		        		<th class="camp"><input type="text" name="subject" class="textField-nome" placeholder="Subject"
+                                                size="20%"/></th>
+		        		<br/><span class="textFieldRequiredMsg">Enter the subject</span></span></div>
+                <br>
+            </tr>
+
+        </table>
+
+        <div style="float:left; width:80%;"></div>
+        <div class="formulario-texto">Message</div>
+        <div class="formulario-campo"><span id="sprytextarea1">
+        <textarea name="mensagem" cols="35" rows="6" placeholder="Enter your message"></textarea>
+        <br/><span class="textareaRequiredMsg">Enter your message</span></span></div>
+
+        <div>
+            <input name="enviar" type="reset" value="Clear" class="btn-contato-reset"/>
+            <input name="enviar" type="submit" value="Send" class="btn-contato-enviar"/>
+        </div>
+
+
+    </form>
+
+</div><!--Fim do Conteudo Paginas-->
+
+
+<!-- Chama validação do formulário -->
+
+<script type="text/javascript" src="validator/js/SpryValidationTextField.js" language="javascript"></script>
+<script type="text/javascript" src="validator/js/SpryValidationTextarea.js" language="javascript"></script>
+<script type="text/javascript" src="validator/js/SpryValidationSelect.js" language="javascript"></script>
+
+<script type="text/javascript">
+
+    var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
+    var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2", "email");
+    var sprytextfield5 = new Spry.Widget.ValidationTextField("sprytextfield5");
+    var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1");
+
+</script>
+
+
+</body>
+</html>
