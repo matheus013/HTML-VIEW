@@ -8,8 +8,8 @@
 /* These are the classes applied on the error messages
  * which prevent them from being displayed by default.
  */ 
-.textFieldRequiredMsg,
-.textFieldInvalidFormatMsg,
+.textfieldRequiredMsg, 
+.textfieldInvalidFormatMsg, 
 .textfieldMinValueMsg,
 .textfieldMaxValueMsg,
 .textfieldMinCharsMsg,
@@ -23,8 +23,8 @@
  * The state class (e.g. .textfieldRequiredState) is applied on the top-level container for the widget,
  * and this way only the specific error message can be shown by setting the display property to "inline".
  */
-.textfieldRequiredState .textFieldRequiredMsg,
-.textfieldInvalidFormatState .textFieldInvalidFormatMsg,
+.textfieldRequiredState .textfieldRequiredMsg, 
+.textfieldInvalidFormatState .textfieldInvalidFormatMsg, 
 .textfieldMinValueState .textfieldMinValueMsg,
 .textfieldMaxValueState .textfieldMaxValueMsg,
 .textfieldMinCharsState .textfieldMinCharsMsg,

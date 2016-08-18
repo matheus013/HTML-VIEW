@@ -55,7 +55,7 @@
         <br/><span class="textareaRequiredMsg">Enter your message</span></span></div>
 
         <div>
-            <input name="enviar" type="reset" value="Clear" class="btn-contato-reset"/>
+            <input name="enviar" type="reset" value="Clear" class="btn-contato-reset" onclick="sendMail(); return false"/>
             <input name="enviar" type="submit" value="Send" class="btn-contato-enviar"/>
         </div>
 
@@ -70,7 +70,7 @@
 <script type="text/javascript" src="validator/js/SpryValidationTextField.js" language="javascript"></script>
 <script type="text/javascript" src="validator/js/SpryValidationTextarea.js" language="javascript"></script>
 <script type="text/javascript" src="validator/js/SpryValidationSelect.js" language="javascript"></script>
-
+<script src="../../js/script.js"></script>
 <script type="text/javascript">
 
     var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");

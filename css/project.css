@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Code-Light;
+    src: url(../fonts/CODE_Light.otf);
+}
+
+@font-face {
+    font-family: Code-Bold;
+    src: url(../fonts/CODE_Bold.otf);
+}
+
+@font-face {
+    font-family: Billabong;
+    src: url(../fonts/Billabong.ttf);
+}
+
+.project {
+    position: relative;
+    left: 10%;
+    background-color: #2A1337;
+    opacity: 0.8;
+    width: 80%;
+    height: 80%;
+    font-family: Code-Light;
+}
+
+.project .title {
+    text-align: center;
+    font-size: 200%;
+    font-family: Code-Bold;
+    color: rgba(17, 170, 11, 0.62);
+}
+
+.project .table {
+    width: 90%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    text-align: justify;
+    color: #FFF;
+}
+
+.title-project {
+    font-family: Code-Bold;
+    text-align: center;
+}
+
+li {
+    list-style: none
+}
+
+a.linkMenu {
+    font-family: Code-Bold;
+    text-decoration: none;
+    color: #61e458;
+    cursor: pointer;
+}
+
+a.linkMenu:hover {
+    color: #FFF;
+    font-weight: bold;
+}
