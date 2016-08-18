@@ -21,5 +21,7 @@ $headers .= "Return-Path: $receiverEmail \r\n"; // return-path
 $envio = mail($receiverEmail, $subject, $messageHTML, $headers);
 
 if ($envio)
-    echo "<script>location.href='http://fb.com/'</script>"; // Página que será redirecionada
+    echo "<script>location.href=''</script>"; // Página que será redirecionada
+else
+    echo "<script>location.href='http://google.com/'</script>";
 ?>

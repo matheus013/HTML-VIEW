@@ -36,14 +36,14 @@ th.camp {
 
 .contact-form {
     position: absolute;
-    left: 25%;
-    top: 5%;
-    width: 50%;
+    left: 10%;
+    top: 1.5%;
+    width: 80%;
     background-color: #2A1337;
     opacity: 0.8;
     color: #FFFFFF;
     display: block;
-    height: auto;
+    height: 80%;
     text-align: center;
     font-family: Code-Bold;
     font-size: 130%;
@@ -51,19 +51,22 @@ th.camp {
 
 .contact-form .title {
     font-size: 150%;
-    font-family: Code-light;
+    font-family: Code-Bold;
+    color: rgba(17, 170, 11, 0.62);
 }
 
 .btn-contato-reset, .btn-contato-enviar {
     background-color: rgba(17, 170, 11, 0.62);
-    padding: 10px 25px 10px 25px;
+    padding-top: 1%;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
     border-style: none;
     font-family: Billabong;
     font-size: 100%;
 }
 
 .btn-contato-reset:hover, .btn-contato-enviar:hover {
-    background-color: #FFFFFF;
+    background-color: #2A1337;
     cursor: pointer;
 }
 

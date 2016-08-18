@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Code-Light;
+    src: url(../fonts/CODE_Light.otf);
+}
+
+@font-face {
+    font-family: Code-Bold;
+    src: url(../fonts/CODE_Bold.otf);
+}
+
+@font-face {
+    font-family: Billabong;
+    src: url(../fonts/Billabong.ttf);
+}
+
+.about {
+    position: absolute;
+    left: 10%;
+    background-color: #2A1337;
+    opacity: 0.8;
+    width: 80%;
+    height: 80%;
+    font-family: Code-Light;
+}
+
+.about .title {
+    text-align: center;
+    font-size: 200%;
+    font-family: Code-Bold;
+    color: rgba(17, 170, 11, 0.62);
+}
+
+.about .text {
+    width: 90%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #FFF;
+}

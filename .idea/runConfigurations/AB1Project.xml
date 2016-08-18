@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AB1Project" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" singleton="true">
+    <TestRunner directory="$PROJECT_DIR$/views/html" />
+    <method />
+  </configuration>
+</component>
